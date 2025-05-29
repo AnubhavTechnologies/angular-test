@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use 'assets/theme.scss' as *;
+
+
+html,
+body {
+    height: 100%;
+    background-color: $main-background;
+}
+
+body {
+    margin: 0;
+    font-family: $font-family;
+}
+
